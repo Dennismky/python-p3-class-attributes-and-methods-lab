@@ -43,6 +43,3 @@ class Song:
             cls.artist_count[artist] += 1
         else:
             cls.artist_count[artist] = 1
-            
-    Song = Song("hhhg")        
-    print(Song.add_to_artist_count())        
